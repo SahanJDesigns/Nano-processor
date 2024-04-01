@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1711981198">
+  <File Type="PWROPT-DCP" Name="Reg_Bank_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Reg_Bank_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Reg_Bank.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Reg_Bank_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Reg_Bank_reports.tcl"/>
+  <File Type="BG-DRC" Name="Reg_Bank.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Reg_Bank_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Reg_Bank_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Reg_Bank.hwdef"/>
+  <File Type="OPT-DCP" Name="Reg_Bank_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Reg_Bank_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Reg_Bank_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Reg_Bank_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Reg_Bank_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Reg_Bank_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Reg_Bank_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Reg_Bank_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Reg_Bank_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Reg_Bank_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Reg_Bank_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Reg_Bank_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Reg_Bank_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Reg_Bank_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Reg_Bank_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Reg_Bank_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Reg_Bank_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Reg_Bank_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Reg_Bank.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Reg_Bank_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Reg_Bank_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Reg_Bank_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Reg_Bank_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Reg_Bank_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Reg_Bank_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Reg_Bank.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Reg_Bank_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Reg_Bank.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Reg_Bank_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Reg_Bank.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Reg_Bank_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Reg_Bank.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Reg_Bank_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Reg_Bank_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Reg_Bank_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Reg_Bank_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Reg_Bank_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Reg_Bank_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Reg_Bank_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Reg_Bank_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Reg_Bank.vdi"/>
+  <File Type="ROUTE-CLK" Name="Reg_Bank_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Reg_Bank_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Reg_Bank_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Reg_Bank_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Reg_Bank_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Reg_Bank_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Reg_Bank.nky"/>
+  <File Type="BITSTR-BMM" Name="Reg_Bank_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Reg_Bank.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Reg_Bank.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Reg_Bank.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Buffer.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_FF.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder_2_to_4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder_3_to_8.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Register.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Register_Bank.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Reg_Bank"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Apr  1 19:51:33 2024
+# Process ID: 8652
+# Current directory: C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.runs/impl_1
+# Command line: vivado.exe -log Reg_Bank.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Reg_Bank.tcl -notrace
+# Log file: C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.runs/impl_1/Reg_Bank.vdi
+# Journal file: C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Reg_Bank.tcl -notrace
