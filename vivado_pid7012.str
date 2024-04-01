@@ -1,0 +1,130 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7012
+License: Customer
+
+Current time: 	Mon Apr 01 18:37:31 IST 2024
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 10 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	E:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	E:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	DELL
+User home directory: C:/Users/DELL
+User working directory: C:/Users/DELL/Desktop/Nano-processor
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: E:/Xilinx/Vivado
+HDI_APPROOT: E:/Xilinx/Vivado/2018.1
+RDI_DATADIR: E:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: E:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	E:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/DELL/Desktop/Nano-processor/vivado.log
+Vivado journal file location: 	C:/Users/DELL/Desktop/Nano-processor/vivado.jou
+Engine tmp dir: 	C:/Users/DELL/Desktop/Nano-processor/.Xil/Vivado-7012-DESKTOP-QJBE8Q8
+
+GUI allocated memory:	205 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 478 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 40 MB (+39004kb) [00:00:14]
+// [Engine Memory]: 478 MB (+349362kb) [00:00:14]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\DELL\Desktop\Nano-processor\Nano-processor.xpr. Version: Vivado v2018.1 
+// [GUI Memory]: 55 MB (+14308kb) [00:00:15]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/DELL/Desktop/Nano-processor/Nano-processor.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 478 MB. GUI used memory: 36 MB. Current time: 4/1/24 6:37:33 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/DELL/Desktop/Nano-processor/Nano-processor.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/sahan/OneDrive/Desktop/Nano-processor' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 523 MB (+22404kb) [00:00:36]
+// Project name: Nano-processor; location: C:/Users/DELL/Desktop/Nano-processor; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 880.531 ; gain = 143.332 
+// [GUI Memory]: 60 MB (+1698kb) [00:00:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 526 MB. GUI used memory: 37 MB. Current time: 4/1/24 6:37:53 PM IST
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+// Elapsed time: 64 seconds
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B (f, c)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ac (ai, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 53 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Mux_8_to_1"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir C:/Users/DELL/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir C:/Users/DELL/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 133 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open C:/Users/DELL/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new/Mux_8_to_1.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/DELL/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new/Mux_8_to_1.vhd 
+// bv (ch):  Add Sources  : addNotify
+// I (ch): Define Module: addNotify
+dismissDialog("Add Sources"); // bv (ch)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 68 MB (+5904kb) [00:03:14]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 548 MB. GUI used memory: 38 MB. Current time: 4/1/24 6:40:43 PM IST
