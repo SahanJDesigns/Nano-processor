@@ -31,6 +31,7 @@ begin
             EN => en1,
             Y => Y1
         );
+        
     en0 <= NOT(I(2)) and EN;
     en1 <= I(2) and EN;
     I0 <= I(1 downto 0);

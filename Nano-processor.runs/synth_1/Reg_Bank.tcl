@@ -16,6 +16,9 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param synth.incrementalSynthesisCache C:/Users/sahan/OneDrive/Desktop/Nano-processor/.Xil/Vivado-13580-Thimira/incrSyn
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -29,6 +32,7 @@ set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
 set_property ip_output_repo c:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
+  C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new/Buffer.vhd
   C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new/D_FF.vhd
   C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new/Decoder_2_to_4.vhd
   C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.srcs/sources_1/new/Decoder_3_to_8.vhd

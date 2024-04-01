@@ -12,6 +12,7 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
 Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Delay [delay_default]
 Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
 Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
 Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank [reg_bank_default]

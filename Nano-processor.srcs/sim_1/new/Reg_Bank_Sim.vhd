@@ -58,47 +58,38 @@ begin
  
         Res <= '0';
         EN <= "000";
-        wait for 1 ns;
         D <= "0000";
         wait for 100 ns;
         
         EN <= "001";
-        wait for 1 ns;
         D <= "0001";
         wait for 100 ns;
         
         EN <= "010";
-        wait for 1 ns;
         D <= "0010";
         wait for 100 ns;
         
         EN <= "011";
-        wait for 1 ns;
         D <= "0011";
         wait for 100 ns;
         
         EN <= "100";
-        wait for 1 ns;
         D <= "0100";
         wait for 100 ns;
         
         EN <= "101";
-        wait for 1 ns;
         D <= "0101";
         wait for 100 ns;
         
         EN <= "110";
-        wait for 1 ns;
         D <= "0110";
         wait for 100 ns;
         
         EN <= "111";
-        wait for 1 ns;
         D <= "0111";
         wait for 100 ns;
         
         EN <= "000";
-        wait for 1 ns;
         D <= "1000";
         wait for 100 ns;
         -- Reset everything

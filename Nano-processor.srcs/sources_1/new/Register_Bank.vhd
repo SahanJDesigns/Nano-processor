@@ -38,7 +38,15 @@ architecture Behavioral of Reg_Bank is
              );
     end component;
 
+    component Delay
+        port (
+                A : in STD_LOGIC_VECTOR(3 downto 0);
+                B : out STD_LOGIC_VECTOR(3 downto 0)
+             );
+    end component;
+
     signal REN : STD_LOGIC_VECTOR(7 downto 0);
+    signal Buffer_0_out,Buffer_1_out,Buffer_2_out : STD_LOGIC_VECTOR(3 downto 0);
      
 begin
     Decoder_3_to_8_0: Decoder_3_to_8
@@ -48,12 +56,32 @@ begin
                     Y  => REN
                  );
 
+    -- Buffering data to manage gate delays
+    Buffer_0 : Delay
+        port map (
+                    A => D,
+                    B => Buffer_0_out
+                  );
+
+    Buffer_1_inst : Delay
+        port map (
+                    A => Buffer_0_out,
+                    B => Buffer_1_out
+                  );
+
+    Buffer_2_inst : Delay
+        port map (
+                    A => Buffer_1_out,
+                    B => Buffer_2_out
+                  );
+
+    -- Register instantiation
     Reg_0: Reg
         port map (
                     Clk => Clk,
                     EN  => REN(0),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg0_Data
                  );
 
@@ -62,7 +90,7 @@ begin
                     Clk => Clk,
                     EN  => REN(1),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg1_Data
                  );
 
@@ -71,7 +99,7 @@ begin
                     Clk => Clk,
                     EN  => REN(2),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg2_Data
                  );
 
@@ -80,7 +108,7 @@ begin
                     Clk => Clk,
                     EN  => REN(3),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg3_Data
                  );
 
@@ -89,7 +117,7 @@ begin
                     Clk => Clk,
                     EN  => REN(4),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg4_Data
                  );
 
@@ -98,7 +126,7 @@ begin
                     Clk => Clk,
                     EN  => REN(5),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg5_Data
                  );
 
@@ -107,7 +135,7 @@ begin
                     Clk => Clk,
                     EN  => REN(6),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg6_Data
                  );
 
@@ -116,7 +144,7 @@ begin
                     Clk => Clk,
                     EN  => REN(7),
                     Res => Res,
-                    D   => D,
+                    D   => Buffer_2_out,
                     Q   => Reg7_Data
                  );
 
