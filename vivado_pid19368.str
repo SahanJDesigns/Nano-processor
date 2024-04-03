@@ -1,0 +1,1082 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 19368
+License: Customer
+
+Current time: 	Wed Apr 03 18:20:06 PDT 2024
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 14 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Vivado/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	User
+User home directory: C:/Users/User
+User working directory: D:/Sem 02/Computer Organization and Degital Design/Nano-processor
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado/Vivado
+HDI_APPROOT: D:/Vivado/Vivado/2018.1
+RDI_DATADIR: D:/Vivado/Vivado/2018.1/data
+RDI_BINDIR: D:/Vivado/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/User/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/User/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/User/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Vivado/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Sem 02/Computer Organization and Degital Design/Nano-processor/vivado.log
+Vivado journal file location: 	D:/Sem 02/Computer Organization and Degital Design/Nano-processor/vivado.jou
+Engine tmp dir: 	D:/Sem 02/Computer Organization and Degital Design/Nano-processor/.Xil/Vivado-19368-DESKTOP-7BII0BN
+
+GUI allocated memory:	145 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 530 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 57 MB (+57378kb) [00:00:09]
+// [Engine Memory]: 510 MB (+383457kb) [00:00:09]
+// Opening Vivado Project: D:\Sem 02\Computer Organization and Degital Design\Nano-processor\Nano-processor.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr} 
+// [GUI Memory]: 60 MB (+192kb) [00:00:13]
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 36 MB. Current time: 4/3/24 6:20:08 PM PDT
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 550 MB (+15407kb) [00:00:18]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 600 MB (+23460kb) [00:00:20]
+// [Engine Memory]: 657 MB (+27823kb) [00:00:22]
+// Project name: Nano-processor; location: D:/Sem 02/Computer Organization and Degital Design/Nano-processor; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 757.867 ; gain = 75.051 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Program_Counter.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_Counter(Behavioral) (Program_Counter.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_Counter(Behavioral) (Program_Counter.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_Counter(Behavioral) (Program_Counter.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 68 MB (+5224kb) [00:00:29]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALU(Behavioral) (ALU.vhd)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALU(Behavioral) (ALU.vhd)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 9, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ALU(Behavioral) (ALU.vhd)]", 12, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Program_Counter_sim(Behavioral) (Program_Counter_sim.vhd)]", 10, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Program_Counter_sim(Behavioral) (Program_Counter_sim.vhd)]", 10, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// [GUI Memory]: 76 MB (+4548kb) [00:00:39]
+// [GUI Memory]: 80 MB (+24kb) [00:00:50]
+// Elapsed time: 65 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ch)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// [GUI Memory]: 85 MB (+1377kb) [00:01:59]
+// Tcl Command: 'rdi::info_commands {open_*}'
+// Tcl Command: 'rdi::info_commands {c*}'
+// Tcl Command: 'rdi::info_commands {cd*}'
+// Elapsed time: 21 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd D:/Sem 02/Computer Organization and Degital Design/Nano-processor", true); // az (Y, ch)
+// Tcl Command: 'cd D:/Sem 02/Computer Organization and Degital Design/Nano-processor'
+// Tcl Command: 'cd D:/Sem 02/Computer Organization and Degital Design/Nano-processor'
+// Tcl Message: cd D:/Sem 02/Computer Organization and Degital Design/Nano-processor 
+// Tcl Message: wrong # args: should be "cd ?dirName?" 
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Elapsed time: 26 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd D:/Sem 02/Computer_Organization_and_Degital_Design/Nano-processor", true); // az (Y, ch)
+// Tcl Command: 'cd D:/Sem 02/Computer_Organization_and_Degital_Design/Nano-processor'
+// Tcl Command: 'cd D:/Sem 02/Computer_Organization_and_Degital_Design/Nano-processor'
+// Tcl Message: cd D:/Sem 02/Computer_Organization_and_Degital_Design/Nano-processor 
+// Tcl Message: wrong # args: should be "cd ?dirName?" 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 273, 79); // dn (ae, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 279, 80); // dn (ae, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 279, 80, false, false, false, false, true); // dn (ae, ch) - Double Click
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn (ae, ch)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Elapsed time: 18 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd \"D:/Sem 02/Computer Organization and Degital Design/Nano-processor\"", true); // az (Y, ch)
+// Tcl Command: 'cd "D:/Sem 02/Computer Organization and Degital Design/Nano-processor"'
+// Tcl Command: 'cd "D:/Sem 02/Computer Organization and Degital Design/Nano-processor"'
+// Tcl Message: cd "D:/Sem 02/Computer Organization and Degital Design/Nano-processor" 
+// Tcl Command: 'rdi::info_commands {git*}'
+// Elapsed time: 14 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git branch --all", true); // az (Y, ch)
+// Tcl Command: 'git branch --all'
+// Tcl Command: 'git branch --all'
+// Tcl Message: git branch --all 
+// Tcl Message:   main * programCounter   remotes/origin/HEAD -> origin/main   remotes/origin/adder   remotes/origin/instructionDecoder   remotes/origin/main   remotes/origin/multiplexer   remotes/origin/programCounter   remotes/origin/programRom   remotes/origin/registerBank 
+// Tcl Command: 'rdi::info_commands {gi*}'
+// Tcl Command: 'rdi::info_commands {git*}'
+// Tcl Command: 'rdi::info_commands {g*}'
+// Tcl Command: 'rdi::info_commands {g*}'
+// Tcl Command: 'rdi::info_commands {git*}'
+// Elapsed time: 15 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// [GUI Memory]: 90 MB (+175kb) [00:03:31]
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it 
+// Tcl Command: 'rdi::info_commands {g*}'
+// Tcl Command: 'rdi::info_commands {gi*}'
+// Tcl Command: 'rdi::info_commands {git*}'
+// Tcl Command: 'rdi::match_options {git} {}'
+// Tcl Command: 'rdi::match_options {git} {m}'
+// Elapsed time: 15 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git commit -m \""); // az (Y, ch)
+// Elapsed time: 29 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git commit -m \"program counter\"", true); // az (Y, ch)
+// Tcl Command: 'git commit -m "program counter"'
+// Tcl Command: 'git commit -m "program counter"'
+// Tcl Message: git commit -m "program counter" 
+// Tcl Command: 'rdi::info_commands {g*}'
+// Tcl Command: 'rdi::info_commands {gi*}'
+// Tcl Command: 'rdi::info_commands {git*}'
+// Tcl Command: 'rdi::match_options {git} {}'
+// Elapsed time: 38 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git push origin"); // az (Y, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 12, 96); // dn (ae, ch)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn (ae, ch)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git push origin programCounter", true); // az (Y, ch)
+// Tcl Command: 'git push origin programCounter'
+// Tcl Command: 'git push origin programCounter'
+// Tcl Message: git push origin programCounter 
+// bv (ch):  Tcl Command Line : addNotify
+// Tcl Message: To https://github.com/Dineth-2001/Nano-processor.git    109d72b..6f26fbd  programCounter -> programCounter 
+dismissDialog("Tcl Command Line"); // bv (ch)
+// [GUI Memory]: 95 MB (+692kb) [00:06:13]
+// Tcl Command: 'rdi::match_options {git} {}'
+// Tcl Command: 'rdi::match_options {git} {b}'
+// Tcl Command: 'rdi::match_options {git} {}'
+// Tcl Command: 'rdi::match_options {git} { }'
+// Tcl Command: 'rdi::match_options {git} {}'
+// Elapsed time: 106 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git checkout -f -b programRom"); // az (Y, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 118, 94); // dn (ae, ch)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn (ae, ch)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git checkout -f -b programRom programRom"); // az (Y, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 66, 96); // dn (ae, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 145, 89); // dn (ae, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 70, 93); // dn (ae, ch)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn (ae, ch)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git checkout -f -b programRom origin/programRom", true); // az (Y, ch)
+// Tcl Command: 'git checkout -f -b programRom origin/programRom'
+// Tcl Command: 'git checkout -f -b programRom origin/programRom'
+// Tcl Message: git checkout -f -b programRom origin/programRom 
+// Tcl Message: branch 'programRom' set up to track 'origin/programRom'. warning: unable to unlink 'vivado.jou': Invalid argument warning: unable to unlink 'vivado.log': Invalid argument warning: unable to unlink 'vivado_pid19368.str': Invalid argument Switched to a new branch 'programRom' 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Command: 'rdi::info_commands {c*}'
+// Tcl Command: 'rdi::info_commands {cl*}'
+// Tcl Command: 'rdi::info_commands {clo*}'
+// Elapsed time: 11 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "close_project", true); // az (Y, ch)
+// Tcl Command: 'close_project'
+// Tcl Command: 'close_project'
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // az (Y, ch)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 87 MB. Current time: 4/3/24 6:27:36 PM PDT
+// Tcl Message: close_project 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr", 0); // q (O, ch)
+// Opening Vivado Project: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/sahan/OneDrive/Desktop/Nano-processor' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 100 MB (+980kb) [00:07:44]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// Project name: Nano-processor; location: D:/Sem 02/Computer Organization and Degital Design/Nano-processor; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 679 MB. GUI used memory: 44 MB. Current time: 4/3/24 6:30:13 PM PDT
+// Elapsed time: 242 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "LUT_"); // X (Q, F)
+// Elapsed time: 40 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "LUT_8_12"); // X (Q, F)
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new 
+// Tcl Command: 'file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new'
+// Tcl Message: file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new 
+// Tcl Command: 'file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new'
+// Tcl Command: 'file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new'
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 75 seconds
+// Tcl Command: 'file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new'
+// Tcl Message: file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new 
+// Tcl Message: file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new 
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Command: 'file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new'
+// Tcl Message: file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new 
+// Tcl Message: file mkdir D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new 
+// bv (ch):  Add Sources  : addNotify
+// Tcl Message: file mkdir {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new} 
+// Tcl Message: close [ open {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12.vhd}} 
+// I (ch): Define Module: addNotify
+dismissDialog("Add Sources"); // bv (ch)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+// [Engine Memory]: 694 MB (+4258kb) [00:13:11]
+// Elapsed time: 14 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "address", 0, "Port Name", 0); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "data", 1, "Port Name", 0); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "data ; in ; false ; 0 ; 0", 1, "in", 1); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 1, "Direction", 1); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "address ; in ; false ; 0 ; 0", 0, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "data ; out ; false ; 0 ; 0", 1, "false", 2); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "address ; in ; true ; 0 ; 0", 0, "0", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "1", 0, "MSB", 3); // ab (O, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "0", 1, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "address ; in ; true ; 1 ; 0", 0, "1", 3); // ab (O, I)
+// Elapsed time: 19 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "2", 0, "MSB", 3); // ab (O, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "data ; out ; true ; 0 ; 0", 1, "0", 3); // ab (O, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "11", 1, "MSB", 3); // ab (O, I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12(Behavioral) (LUT_8_12.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12(Behavioral) (LUT_8_12.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 700 MB. GUI used memory: 48 MB. Current time: 4/3/24 6:34:03 PM PDT
+// Elapsed time: 24 seconds
+selectCodeEditor("LUT_8_12.vhd", 71, 176); // cd (w, ch)
+typeControlKey((HResource) null, "LUT_8_12.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 47, 194); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("LUT_8_12.vhd", 0, 128); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 62, 149); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 245, 125); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 403, 126); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("LUT_8_12.vhd", 188, 163); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("LUT_8_12.vhd", 140, 131); // cd (w, ch)
+// Elapsed time: 204 seconds
+selectCodeEditor("LUT_8_12.vhd", 149, 162); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("LUT_8_12.vhd", 61, 180); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 193, 162); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 169, 214); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("LUT_8_12.vhd", 265, 105); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 580, 238); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 338, 186); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 105, 210); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 60, 212); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("LUT_8_12.vhd", 223, 29); // cd (w, ch)
+typeControlKey((HResource) null, "LUT_8_12.vhd", 'v'); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("LUT_8_12.vhd", 55, 208); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("LUT_8_12.vhd", 95, 185); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 68 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 20 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "LUT_8_12_sim"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 28 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12_sim.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12_sim.vhd}} 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_sim(Behavioral) (LUT_8_12_sim.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_sim(Behavioral) (LUT_8_12_sim.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("LUT_8_12_sim.vhd", 558, 196); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "LUT_8_12_sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 340, 178); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 317, 197); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("LUT_8_12_sim.vhd", 172, 90); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("LUT_8_12_sim.vhd", 176, 129); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 180, 177); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("LUT_8_12_sim.vhd", 193, 124); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 175, 125); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("LUT_8_12_sim.vhd", 187, 181); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 161 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr  3 18:46:50 2024] Launched synth_1... Run output will be captured here: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 42 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Wed Apr  3 18:47:34 2024] Launched impl_1... Run output will be captured here: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 48 MB. Current time: 4/3/24 6:47:38 PM PDT
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ch): Implementation Failed: addNotify
+// Elapsed time: 47 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ch)
+// [Engine Memory]: 750 MB (+22261kb) [00:28:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 750 MB. GUI used memory: 47 MB. Current time: 4/3/24 6:48:28 PM PDT
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LUT_8_12.vhd", 1); // k (j, ch)
+// Elapsed time: 89 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Common 17-69] Command failed: Placer could not place all instances. ]", 3, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design]", 1, true); // ah (O, ch) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-494] The design is empty. Resolution: Check if opt_design has removed all the leaf cells of your design.  Check whether you have instantiated and connected all of the top level ports.. ]", 2, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-494] The design is empty. Resolution: Check if opt_design has removed all the leaf cells of your design.  Check whether you have instantiated and connected all of the top level ports.. ]", 2, false, false, false, false, true, false); // ah (O, ch) - Popup Trigger
+// Elapsed time: 55 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-494] The design is empty. Resolution: Check if opt_design has removed all the leaf cells of your design.  Check whether you have instantiated and connected all of the top level ports.. ]", 2, false); // ah (O, ch)
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_16_7_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1, true); // B (D, ch) - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 26, false); // u (O, ch)
+// bv (ch):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a35tcpg236-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 876 MB. GUI used memory: 48 MB. Current time: 4/3/24 6:51:43 PM PDT
+// [Engine Memory]: 885 MB (+102370kb) [00:31:50]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,026 MB. GUI used memory: 48 MB. Current time: 4/3/24 6:51:47 PM PDT
+// [Engine Memory]: 1,028 MB (+103416kb) [00:31:53]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,100 MB (+21635kb) [00:31:54]
+// [GUI Memory]: 110 MB (+4646kb) [00:31:55]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1225.488 ; gain = 356.250 
+// Elapsed time: 12 seconds
+dismissDialog("Open Synthesized Design"); // bv (ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 30); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 30); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 30); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 30); // u (O, ch)
+// [Engine Memory]: 1,163 MB (+8649kb) [00:32:03]
+// [GUI Memory]: 122 MB (+6569kb) [00:32:05]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ch)
+// [Engine Memory]: 1,255 MB (+35078kb) [00:32:07]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ch)
+// A (ch): Elaborate Design: addNotify
+// [Engine Memory]: 1,323 MB (+5493kb) [00:32:08]
+// RouteApi::initDelayMediator elapsed time: 12s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 76 MB. Current time: 4/3/24 6:52:03 PM PDT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// [Engine Memory]: 1,546 MB (+164743kb) [00:32:09]
+// bv (ch):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ch)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: LUT_16_7_Sim 
+// [Engine Memory]: 1,626 MB (+2972kb) [00:32:13]
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bv)
+// [Engine Memory]: 1,711 MB (+3193kb) [00:32:16]
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,736 MB. GUI used memory: 74 MB. Current time: 4/3/24 6:52:11 PM PDT
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1773.949 ; gain = 98.691 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'LUT_16_7_Sim' [D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12_sim.vhd:8] INFO: [Synth 8-637] synthesizing blackbox instance 'UUT' of component 'LUT_16_7' [D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12_sim.vhd:19] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'LUT_16_7_Sim' (1#1) [D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12_sim.vhd:8] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1816.820 ; gain = 141.562 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1816.895 ; gain = 141.637 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1816.895 ; gain = 141.637 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1911.555 ; gain = 236.297 
+// Tcl Message: 6 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1911.555 ; gain = 236.297 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+dismissDialog("Open Elaborated Design"); // bv (ch)
+// [Engine Memory]: 1,799 MB (+3496kb) [00:32:32]
+// Elapsed time: 73 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// Elapsed time: 18 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr}. ]", 1, true); // ah (O, ch) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr}. , [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.ip_user_files', nor could it be found using path 'C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.ip_user_files'.. ]", 2, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr}. , [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.ip_user_files', nor could it be found using path 'C:/Users/sahan/OneDrive/Desktop/Nano-processor/Nano-processor.ip_user_files'.. ]", 2, false, false, false, false, true, false); // ah (O, ch) - Popup Trigger
+// Elapsed time: 50 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ch)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd D", true); // az (Y, ch)
+// Tcl Command: 'cd D'
+// Tcl Command: 'cd D'
+// Tcl Message: cd D 
+// Tcl Message: couldn't change working directory to "D": no such file or directory 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 81 MB. Current time: 4/3/24 6:54:44 PM PDT
+// [GUI Memory]: 131 MB (+3231kb) [00:34:57]
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+closeFrame(PAResourceOtoP.PAViews_NETLIST, "Netlist"); // aw (aE, ch)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, rtl_1, synth_design -rtl -name rtl_1. , [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12_sim.vhd:28]. ]", 5, true); // ah (O, ch) - Node
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LUT_8_12.vhd", 2); // k (j, ch)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LUT_8_12.vhd", 2, false, true); // k (j, ch) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// Elapsed time: 17 seconds
+selectCodeEditor("LUT_8_12.vhd", 222, 333); // cd (w, ch)
+typeControlKey((HResource) null, "LUT_8_12.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 62 seconds
+selectCodeEditor("LUT_8_12.vhd", 347, 234); // cd (w, ch)
+typeControlKey((HResource) null, "LUT_8_12.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("LUT_8_12.vhd", 435, 420); // cd (w, ch)
+typeControlKey(null, null, 'z');
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 33, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// i (ch): Reset and Re-run: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Reset and Re-run"); // a (i)
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Reset and Re-run"); // i (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: INFO: [Timing 38-480] Writing timing data to binary archive. 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr  3 18:57:32 2024] Launched impl_1... Run output will be captured here: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_16_7_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1); // B (D, ch)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_16_7_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_16_7_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_16_7_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ch)
+// aQ (ch): Cancel Implementation: addNotify
+dismissDialog("Cancel Implementation"); // aQ (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_16_7_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectCodeEditor("LUT_8_12_sim.vhd", 523, 98); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 228, 124); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 86, 50); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 93, 57); // cd (w, ch)
+// TclEventType: RUN_FAILED
+// ah (ch): Implementation Failed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Failed"); // ah (ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 67, 97); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 234, 127); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 149, 140); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 107, 213); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 438, 149); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1); // B (D, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 40 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 17); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 17); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 5); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 5); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'LUT_8_12_Sim' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 82 MB. Current time: 4/3/24 6:59:48 PM PDT
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj LUT_8_12_Sim_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity LUT_8_12 INFO: [VRFC 10-163] Analyzing VHDL file "D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.srcs/sources_1/new/LUT_8_12_sim.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity LUT_8_12_Sim 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim' 
+// Elapsed time: 11 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 11 seconds
+// Tcl Message: Built simulation snapshot LUT_8_12_Sim_behav 
+// TclEventType: LAUNCH_SIM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 127 MB. Current time: 4/3/24 6:59:58 PM PDT
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source D:/Sem -notrace couldn't read file "D:/Sem": permission denied INFO: [Common 17-206] Exiting Webtalk at Wed Apr  3 18:59:58 2024... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1919.992 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "LUT_8_12_Sim_behav -key {Behavioral:sim_1:Functional:LUT_8_12_Sim} -tclbatch {LUT_8_12_Sim.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source LUT_8_12_Sim.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 87 MB. Current time: 4/3/24 7:00:02 PM PDT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 87 MB. Current time: 4/3/24 7:00:02 PM PDT
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'LUT_8_12_Sim_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1929.320 ; gain = 9.328 
+dismissDialog("Run Simulation"); // e (ch)
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+floatView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // aw (aE, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// RDIResource.RDIViews_WAVEFORM_VIEWER: Untitled 1: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 87 MB. Current time: 4/3/24 7:00:05 PM PDT
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // aw (aE, aG)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, aG)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 94 MB. Current time: 4/3/24 7:00:07 PM PDT
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, address[2:0]]", 0); // a (s, aG)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, data[11:0]]", 4); // a (s, aG)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, data[11:0]]", 4, true, false, false, false, true, false); // a (s, aG) - Popup Trigger - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 94 MB. Current time: 4/3/24 7:00:15 PM PDT
+selectMenu((HResource) null, "Name"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu((HResource) null, "Signal Color"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu((HResource) null, "Radix"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu((HResource) null, "Radix"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem((HResource) null, "Binary"); // Q (aG, Popup.HeavyWeightWindow)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, address[2:0]]", 0, true, false, false, false, true, false); // a (s, aG) - Popup Trigger - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectMenu((HResource) null, "Name"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu((HResource) null, "Waveform Style"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu((HResource) null, "Signal Color"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu((HResource) null, "Radix"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu((HResource) null, "Radix"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem((HResource) null, "Binary"); // Q (aG, Popup.HeavyWeightWindow)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 95 MB. Current time: 4/3/24 7:00:27 PM PDT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 139 MB (+1202kb) [00:41:41]
+// Waveform: addNotify
+// Waveform: addNotify
+// Elapsed time: 86 seconds
+dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // aw (aE, aG)
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // aw (aE, aG)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// RDIResource.RDIViews_WAVEFORM_VIEWER: Untitled 1*: dock view
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 30 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1); // B (D, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 184, 192); // cd (w, ch)
+selectCodeEditor("LUT_8_12_sim.vhd", 183, 251); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("LUT_8_12_sim.vhd", 196, 292); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_Sim(Behavioral) (LUT_8_12_sim.vhd), UUT : LUT_8_12(Behavioral) (LUT_8_12.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_Sim(Behavioral) (LUT_8_12_sim.vhd), UUT : LUT_8_12(Behavioral) (LUT_8_12.vhd)]", 2, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top LUT_8_12 [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 11, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (ch): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Wed Apr  3 19:03:53 2024] Launched synth_1... Run output will be captured here: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.runs/synth_1/runme.log [Wed Apr  3 19:03:53 2024] Launched impl_1... Run output will be captured here: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 26 seconds
+selectButton("RDIResource.WaveformUtils_WAVEFORM_CONFIGURATION_HAS_BEEN_MODIFIED_Discard", "Discard"); // JButton (A, G)
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1*"); // w
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 25 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 6); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 6); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 6); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 6); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 8); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 8); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_SHOW_NETLIST_DESIGN
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: current_design synth_1 
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 10); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 10); // u (O, ch)
+// Elapsed time: 28 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ch)
+// aQ (ch): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_STEP, "Reset Step"); // a (aQ)
+// bv (ch):  Reset to Previous Step : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aQ (ch)
+// [GUI Memory]: 146 MB (+422kb) [00:45:26]
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bv)
+dismissDialog("Reset to Previous Step"); // bv (ch)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aC, ch)
+closeTask("Synthesis", "Synthesized Design", "DesignTask.NETLIST_PLANNING");
+// A (ch): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 89 MB. Current time: 4/3/24 7:05:26 PM PDT
+// Engine heap size: 1,803 MB. GUI used memory: 90 MB. Current time: 4/3/24 7:05:27 PM PDT
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // A (ch)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aC, ch)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// A (ch): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 64 MB. Current time: 4/3/24 7:05:35 PM PDT
+// Engine heap size: 1,803 MB. GUI used memory: 65 MB. Current time: 4/3/24 7:05:35 PM PDT
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // A (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 11, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Wed Apr  3 19:05:41 2024] Launched synth_1... Run output will be captured here: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 12); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 12); // u (O, ch)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 12); // u (O, ch)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 12); // u (O, ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 54 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Wed Apr  3 19:06:39 2024] Launched impl_1... Run output will be captured here: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 77 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,803 MB. GUI used memory: 86 MB. Current time: 4/3/24 7:07:58 PM PDT
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1941.098 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1941.098 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dO' command handler elapsed time: 3 seconds
+dismissDialog("Open Implemented Design"); // bv (ch)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LUT_8_12_Sim(Behavioral) (LUT_8_12_sim.vhd)]", 1, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 519682, 181123); // D (I, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LUT_8_12_sim.vhd", 3); // k (j, ch)
+// Elapsed time: 27 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ch)
+// Tcl Command: 'rdi::info_commands {ls*}'
+// Elapsed time: 16 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "ls", true); // az (Y, ch)
+// Tcl Command: 'ls'
+// Tcl Command: 'ls'
+// Tcl Message: ls 
+// Tcl Message: ambiguous command name "ls": lsearch lset lsort 
+// Tcl Command: 'rdi::info_commands {cd*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd \"\""); // az (Y, ch)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd \"D:\Sem 02\Computer Organization and Degital Design\Nano-processor\"", true); // az (Y, ch)
+// Tcl Command: 'cd "D:\Sem 02\Computer Organization and Degital Design\Nano-processor"'
+// Tcl Command: 'cd "D:\Sem 02\Computer Organization and Degital Design\Nano-processor"'
+// Tcl Message: cd "D:\Sem 02\Computer Organization and Degital Design\Nano-processor" 
+// Tcl Message: couldn't change working directory to "D:Sem 02Computer Organization and Degital DesignNano-processor": no such file or directory 
+// Elapsed time: 12 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1151, 102); // dn (ae, ch)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 494, 40); // dn (ae, ch)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn (ae, ch)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd \"D:/Sem 02/Computer Organization and Degital Design/Nano-processor\"", true); // az (Y, ch)
+// Tcl Command: 'cd "D:/Sem 02/Computer Organization and Degital Design/Nano-processor"'
+// Tcl Command: 'cd "D:/Sem 02/Computer Organization and Degital Design/Nano-processor"'
+// Tcl Message: cd "D:/Sem 02/Computer Organization and Degital Design/Nano-processor" 
+// Elapsed time: 10 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 122, 108); // dn (ae, ch)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn (ae, ch)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git branch --all", true); // az (Y, ch)
+// Tcl Command: 'git branch --all'
+// Tcl Command: 'git branch --all'
+// Tcl Message: git branch --all 
+// Tcl Message:   main   programCounter * programRom   remotes/origin/HEAD -> origin/main   remotes/origin/adder   remotes/origin/instructionDecoder   remotes/origin/main   remotes/origin/multiplexer   remotes/origin/programCounter   remotes/origin/programRom   remotes/origin/registerBank 
+// Elapsed time: 49 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 99, 64); // dn (ae, ch)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dn (ae, ch)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// bv (ch):  Tcl Command Line : addNotify
+dismissDialog("Tcl Command Line"); // bv (ch)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all"); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
