@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Apr  3 21:48:48 2024
+# Process ID: 14780
+# Current directory: D:/Sem 02/Computer Organization and Degital Design/Nano-processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17668 D:\Sem 02\Computer Organization and Degital Design\Nano-processor\Nano-processor.xpr
+# Log file: D:/Sem 02/Computer Organization and Degital Design/Nano-processor/vivado.log
+# Journal file: D:/Sem 02/Computer Organization and Degital Design/Nano-processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 798.535 ; gain = 108.367
+update_compile_order -fileset sources_1
+git branch --all
+WARNING: [Common 17-259] Unknown Tcl command 'git branch --all' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+  main
+  programCounter
+* programRom
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/adder
+  remotes/origin/instructionDecoder
+  remotes/origin/main
+  remotes/origin/multiplexer
+  remotes/origin/programCounter
+  remotes/origin/programRom
+  remotes/origin/registerBank
+git switch programCounter
+WARNING: [Common 17-259] Unknown Tcl command 'git switch programCounter' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+error: Your local changes to the following files would be overwritten by checkout:
+	Nano-processor.cache/wt/gui_handlers.wdf
+	Nano-processor.cache/wt/java_command_handlers.wdf
+	Nano-processor.cache/wt/project.wpc
+	Nano-processor.cache/wt/webtalk_pa.xml
+	Nano-processor.sim/sim_1/behav/xsim/LUT_8_12_Sim_behav.wdb
+	Nano-processor.sim/sim_1/behav/xsim/simulate.log
+	Nano-processor.sim/sim_1/behav/xsim/webtalk.jou
+	Nano-processor.sim/sim_1/behav/xsim/webtalk.log
+	Nano-processor.sim/sim_1/behav/xsim/xsim.dir/LUT_8_12_Sim_behav/webtalk/.xsim_webtallk.info
+	Nano-processor.sim/sim_1/behav/xsim/xsim.dir/LUT_8_12_Sim_behav/xsimkernel.log
+	vivado.jou
+	vivado.log
+Please commit your changes or stash them before you switch branches.
+Aborting
+git switch -f programCounter
+WARNING: [Common 17-259] Unknown Tcl command 'git switch -f programCounter' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+Your branch is up to date with 'origin/programCounter'.
+warning: unable to unlink 'Nano-processor.runs/impl_1/init_design.pb': Invalid argument
+warning: unable to unlink 'Nano-processor.runs/impl_1/opt_design.pb': Invalid argument
+warning: unable to unlink 'Nano-processor.runs/impl_1/place_design.pb': Invalid argument
+warning: unable to unlink 'Nano-processor.runs/impl_1/route_design.pb': Invalid argument
+warning: unable to unlink 'Nano-processor.runs/impl_1/runme.log': Invalid argument
+warning: unable to unlink 'Nano-processor.runs/synth_1/runme.log': Invalid argument
+warning: unable to unlink 'Nano-processor.runs/synth_1/vivado.pb': Invalid argument
+error: unable to unlink old 'vivado.jou': Invalid argument
+error: unable to unlink old 'vivado.log': Invalid argument
+Switched to branch 'programCounter'
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  3 21:54:24 2024...
