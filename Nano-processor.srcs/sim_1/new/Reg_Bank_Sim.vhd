@@ -44,6 +44,7 @@ begin
         Reg7_Data => Reg7_Data
     );
 
+        
     -- Clock process
     process
     begin
