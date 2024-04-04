@@ -1,4 +1,0 @@
-Running: xsim.dir/LUT_8_12_Sim_behav/xsimk.exe -simmode gui -wdb LUT_8_12_Sim_behav.wdb -simrunnum 0 -socket 50873
-Design successfully loaded
-Design Loading Memory Usage: 6336 KB (Peak: 6336 KB)
-Design Loading CPU Usage: 0 ms
