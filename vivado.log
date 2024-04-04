@@ -449,3 +449,8 @@ warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the ne
 warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it
 git add --all
 WARNING: [Common 17-259] Unknown Tcl command 'git add --all' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vivado_pid19368.str', LF will be replaced by CRLF the next time Git touches it
+git add --all
+WARNING: [Common 17-259] Unknown Tcl command 'git add --all' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
