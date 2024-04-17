@@ -274,7 +274,7 @@ begin
            JMP => Jmp_Flag,
            C_out => Address_PC
        );
-       
+
        Result <= Reg7_Data;
        Pause_Clk <= '1' when Instruction_Bus = "011101111111" else '0';
        Slow_Clk_Out_bar <= not(Slow_Clk_Out);

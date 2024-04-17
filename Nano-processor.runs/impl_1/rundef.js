@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 // pre-commands:
-ISETouchFile( "write_bitstream", "begin" );
+ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
          "-log Nano_Processor.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Nano_Processor.tcl -notrace" );
 

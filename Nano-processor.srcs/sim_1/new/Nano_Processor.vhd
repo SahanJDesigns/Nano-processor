@@ -12,11 +12,13 @@ architecture Behavioral of Nano_Processor_TB is
             Result : out STD_LOGIC_VECTOR (3 downto 0);
             Zero_Flag: out STD_LOGIC;
             O_Flow : out STD_LOGIC
+
             );
     end component;
     signal Clk :STD_LOGIC;
     signal Res :STD_LOGIC;
     signal Result :STD_LOGIC_VECTOR (3 downto 0);
+
     signal Zero_Flag:STD_LOGIC;
     signal O_flow:STD_LOGIC;  
     

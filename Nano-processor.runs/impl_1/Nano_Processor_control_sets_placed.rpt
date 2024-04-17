@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Wed Apr 17 15:16:13 2024
+| Date         : Wed Apr 17 16:11:32 2024
 | Host         : Thimira running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Nano_Processor_control_sets_placed.rpt
 | Design       : Nano_Processor
@@ -23,8 +23,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     8 |
-| Unused register locations in slices containing registers |    27 |
+| Number of unique control sets                            |     7 |
+| Unused register locations in slices containing registers |    25 |
 +----------------------------------------------------------+-------+
 
 
@@ -37,7 +37,6 @@ Table of Contents
 |      3 |            1 |
 |      4 |            4 |
 |      5 |            1 |
-|      6 |            1 |
 |    16+ |            1 |
 +--------+--------------+
 
@@ -53,7 +52,7 @@ Table of Contents
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              53 |           17 |
+| Yes          | Yes                   | No                     |              47 |           14 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -64,13 +63,12 @@ Table of Contents
 |        Clock Signal        |              Enable Signal             |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
 +----------------------------+----------------------------------------+--------------------------------+------------------+----------------+
 |  Clk_IBUF_BUFG             |                                        |                                |                2 |              3 |
+| ~Slow_Clock_0/Slow_Clk_Out | Program_Counter_0/D_FF_0/Q_reg_3       | Reset_Trigger_0/Res__0         |                1 |              4 |
 | ~Slow_Clock_0/Slow_Clk_Out | Program_Counter_0/D_FF_0/REN[0]        | Reset_Trigger_0/Res__0         |                1 |              4 |
-| ~Slow_Clock_0/Slow_Clk_Out | Program_Counter_0/D_FF_1/REN[1]        | Reset_Trigger_0/Res__0         |                2 |              4 |
-| ~Slow_Clock_0/Slow_Clk_Out | Program_Counter_0/D_FF_1/REN[0]        | Reset_Trigger_0/Res__0         |                2 |              4 |
+| ~Slow_Clock_0/Slow_Clk_Out | Program_Counter_0/D_FF_0/Q_reg_2       | Reset_Trigger_0/Res__0         |                2 |              4 |
 | ~Slow_Clock_0/Slow_Clk_Out | Program_Counter_0/D_FF_2/REN[0]        | Reset_Trigger_0/Res__0         |                2 |              4 |
 |  Slow_Clock_0/Slow_Clk_Out |                                        |                                |                3 |              5 |
-| ~Slow_Clock_0/Slow_Clk_Out | Program_Counter_0/D_FF_1/REN[2]        | Reset_Trigger_0/Res__0         |                2 |              6 |
-|  Clk_IBUF_BUFG             | Program_Counter_0/D_FF_1/count_reg[31] | Slow_Clock_0/count[31]_i_1_n_0 |                8 |             31 |
+|  Clk_IBUF_BUFG             | Program_Counter_0/D_FF_0/count_reg[31] | Slow_Clock_0/count[31]_i_1_n_0 |                8 |             31 |
 +----------------------------+----------------------------------------+--------------------------------+------------------+----------------+
 
 
