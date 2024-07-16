@@ -107,16 +107,17 @@ Users can implement their own programs by modifying the machine code in the Prog
 ### Programmed the Program ROM to calculate Fibonacci numbers
 - The improved 8-bit nano processor can calculate Fibonacci numbers up to the 11th Fibonacci number (89 or 0x59).
     #### Algorithm:
-    01 MOV R1,01
-    02 MOV R2,01
-    03 ADD R7,R1
-    04 ADD R7,R2
-    05 MOV R1,0
-    06 ADD R1,R7
-    07 ADD R7,R2
-    08 MOV R2,0
-    09 ADD R2,R1
-    10 JZR R0,5
+    1. `MOV R1,01`
+    2. `MOV R2,01`
+    3. `ADD R7,R1`
+    4. `ADD R7,R2`
+    5. `MOV R1,0`
+    6. `ADD R1,R7`
+    7. `ADD R7,R2`
+    8. `MOV R2,0`
+    9. `ADD R2,R1`
+    10. `JZR R0,5`
+
 ### Added a 4-bit multiplier to ALU and programmed the Program ROM to calculate the powers of two.
 - The improved 8-bit nano processor can calculate powers of 2 up to 24 (16 or 0x10).
 
